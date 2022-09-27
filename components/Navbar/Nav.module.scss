@@ -1,0 +1,127 @@
+@import '../../styles/shared-styles';
+
+.navContainer {
+    height: 95px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    position: fixed;
+    top: 0;
+    background-color: transparent;
+    width: 100%;
+    z-index: 1;
+    padding: 10px 45px;
+
+    ul {
+        display: flex;
+        list-style: none;
+
+        li {
+            height: 75px;
+            line-height: 75px;
+            font-size: 17px;
+            margin-right: 20px;
+            transition: 0.3s ease-in-out;
+        }
+
+        @media screen and (max-width: 768px) {
+            display: none;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        justify-content: start;
+    }
+
+    @media screen and (max-width: 960px) {
+        transition: 0.8s all ease-out;
+    }
+
+    &.onScroll {
+        background-color: #fff;
+    
+        li a {
+            color: #000;
+        }
+        .loginBtn {
+            color: #000;
+            border: 2px solid #000;
+        }
+    }
+}
+
+.active {
+    color: #e96868 !important;
+    border-bottom: 3px solid #e96868;
+}
+
+.logo {
+    justify-self: flex-start;
+    line-height: 80px;
+    display: flex;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+    &:hover {
+        color: #fff;
+    }
+}
+
+.mobileIcon {
+    display: none;
+
+    @media screen and (max-width: 768px) {
+        display: block;
+        color: #fff;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 60%);
+        font-size: 1.8rem;
+        cursor: pointer;
+        margin-top: -10px;
+    }
+}
+
+.linkWrapper {
+    display: flex;
+    text-decoration: none;
+    height: 100%;
+    padding-left: 11px;
+    padding-right: 18px;
+    font-weight: 600;
+    font-size: 17px;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+
+
+    &:hover {
+        color: blue;
+    }
+}
+
+.linkWrapper {
+    margin-left: 10%;
+}
+
+.loginBtn, .ctaBtn {
+    padding: 1px 35px;
+    color: #fff;
+    font-weight: 600;
+    border: 2px solid #fff;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    border-radius: 50px;
+    line-height: 36px;
+    background-color: transparent;
+}
+
+.ctaBtn {
+    background-image: linear-gradient(86.77deg, #42e8e0 -46.37%, #6940de 98.59%);
+    border: none;
+}

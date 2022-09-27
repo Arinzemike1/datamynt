@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Montserrat:wght@100;800&display=swap');
+@import '../../styles/shared-styles';
+
+
+/*Styles for info section*/
+.homeContainer {
+    background-image: linear-gradient(180deg, #231c5e 33.23%, #202045 67.61%);
+    background-position: center;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    overflow: hidden;
+
+    @include tablet {
+        height: 50vh;
+    }
+
+    @include phone {
+        height: 80vh;
+    }
+
+    @include medium-screen {
+        height: 55vh;
+    }
+
+    @media screen and (device-aspect-ratio: 40/71) {
+        height: 90vh;
+    }
+}
+
+.homeBackground {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.infoSection {
+    margin-top: 100px;
+    padding: 0px;
+    background-color: #fff;
+}
+
+.headlineText {
+    // width: 73%;
+    padding: 200px 90px;
+    color: #fff;
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        padding: 120px 30px;
+        text-align: left;
+        font-size: 30px;
+    }
+
+    @include medium-screen {
+        padding: 100px 50px;
+    }
+
+
+    h5 {
+        font-size: 63px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 600 !important;
+        line-height: 80px;
+
+        @include phone {
+            font-size: 30px;
+            line-height: 45px;
+        }
+
+        @media screen and (device-aspect-ratio: 40/71) {
+            font-size: 30px;
+            line-height: 40px;
+        }
+    }
+
+    b {
+        color: #68C8F4;
+    }
+
+    h6 {
+        font-size: 30px;
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        margin-top: 45px;
+    }
+}
+
+.ctaBtn {
+    border: none;
+    padding: 20px 150px;
+    text-decoration: none;
+    color: #fff;
+    height: 41px;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 50px;
+    background-image: linear-gradient(86.77deg, #42e8e0 -46.37%, #6940de 98.59%);
+
+    @include phone {
+        font-size: 22px;
+        width: 256px;
+        height: 51px;
+    }
+
+    @include tablet {
+        font-size: 22px;
+        width: 256px;
+        height: 51px;
+    }
+}
+
+.img {
+    border-bottom-right-radius: 50px;
+}
+
+.aboutText {
+    padding: 0 50px;
+
+    h1 {
+        font-size: 53px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600 !important;
+
+        @include phone {
+            font-size: 35px;
+        }
+    }
+
+    p {
+        color: #97979d;
+        font-family: 'Poppins', sans-serif;
+        font-size: 17px;
+
+        @include phone {
+            line-height: 28px;
+        }
+    }
+}
+
+.portfolioSection {
+    h1 {
+        font-size: 53px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600 !important;
+        text-decoration: overline;
+    }
+}
