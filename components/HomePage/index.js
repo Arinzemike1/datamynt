@@ -51,7 +51,7 @@ const HomePage = () => {
                                 without traditional crypto volatility.</span> One click, scan or send. It just works.
                         </p>
 
-                        <div className='mt-5 text-lg-left text-center'>
+                        <div className='mt-5'>
                             <img src="https://datamynt.com/_next/image?url=%2Fapple.png&w=384&q=75" className='me-3' width="141" alt="" />
                             <img src="https://datamynt.com/_next/image?url=%2Fandroid.png&w=384&q=75" width="141" alt="" />
                         </div>
