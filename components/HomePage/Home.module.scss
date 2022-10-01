@@ -9,35 +9,12 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    // height: 100vh;
     overflow: hidden;
     width: 100.7%;
-
-    // @include tablet {
-    //     height: 50vh;
-    // }
 
     @include phone {
         width: 103%;
     }
-
-    // @include medium-screen {
-    //     height: 55vh;
-    // }
-
-    // @media screen and (device-aspect-ratio: 40/71) {
-    //     height: 90vh;
-    // }
-}
-
-.homeBackground {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
 }
 
 .infoSection {
@@ -55,7 +32,6 @@
 }
 
 .headlineText {
-    // width: 73%;
     padding: 200px 90px;
     color: #fff;
 
@@ -115,12 +91,10 @@
         font-size: 18px;
         padding: 16px 53px;
     }
+}
 
-    // @include tablet {
-    //     font-size: 22px;
-    //     width: 256px;
-    //     height: 51px;
-    // }
+.ctaBtn:hover {
+    color: #fff;
 }
 
 .welcomeSection {
@@ -128,6 +102,11 @@
 
     @include phone {
         padding: 30px 30px 50px 30px;
+    }
+
+    @include tablet {
+        padding: 0;
+        margin-left: 100px;
     }
 
     .welcomeText {
@@ -139,16 +118,20 @@
             @include phone {
                 width: 100%;
             }
+
+            @include tablet {
+                width: 100%;
+            }
         }
-    
+
         img {
             max-width: 100%;
         }
-    
+
         span {
             color: $secondary-color;
         }
-    
+
         h2 {
             font-family: 'Inter', sans-serif;
             font-weight: 700;
@@ -174,6 +157,9 @@
     .sellingPoint {
         margin: 100px auto 200px auto;
 
+        // @include tablet {
+        //     margin: 100px auto 200px 150px;
+        // }
         img {
             margin-top: 5px;
             max-width: 100%;
@@ -227,6 +213,7 @@
             width: 100%;
         }
     }
+
     p {
         font-size: 17px;
     }
@@ -244,21 +231,32 @@
     }
 }
 
-.simpleCheckout, .easySettle, .powerfulTools {
+.simpleCheckout,
+.easySettle,
+.powerfulTools {
     padding: 100px 200px;
 
     @include phone {
         padding: 60px 30px;
     }
 
+    @include tablet {
+        padding: 20px 30px;
+    }
+
     img {
         max-width: 100%;
+
+        @include tablet {
+            margin-top: 40px;
+        }
     }
 
     h4 {
         font-size: 31px;
         font-weight: 700;
     }
+
     p {
         font-size: 17px;
         width: 80%;
@@ -277,12 +275,19 @@
     }
 }
 
-.sellOnline, .trackSales, .tableMetrics, .recognitionSection, .contactUs {
+.sellOnline,
+.trackSales,
+.tableMetrics,
+.recognitionSection {
     background-image: linear-gradient(180deg, #231c5e 33.23%, #202045 67.61%);
     padding: 50px 200px;
 
     @include phone {
         padding: 60px 30px;
+    }
+
+    @include tablet {
+        padding: 20px 30px;
     }
 
     h4 {
@@ -295,6 +300,10 @@
 
         @include phone {
             height: 309px;
+        }
+
+        @include tablet {
+            margin-top: 80px;
         }
     }
 
@@ -333,6 +342,7 @@
         list-style-type: none;
         margin-bottom: 40px;
     }
+
     .toolsList {
         span:first-child {
             font-weight: 700;
@@ -360,6 +370,7 @@
         img {
             margin-bottom: 30px;
         }
+
         p {
             width: 65%;
             margin-bottom: 30px;
@@ -368,8 +379,9 @@
                 width: 100%;
             }
         }
+
         span {
-            color: #3D8ECD;
+            color: $primary-color;
             font-size: 1.25rem;
         }
     }
@@ -385,4 +397,86 @@
     h2 {
         margin-bottom: 80px;
     }
+}
+
+.contactUs {
+    background-image: linear-gradient(180deg, #231c5e 33.23%, #202045 67.61%);
+    padding: 50px 70px;
+
+    @include phone {
+        padding: 60px 30px;
+    }
+
+    h4 {
+        font-size: 31px;
+        font-weight: 700;
+    }
+
+    img {
+        max-width: 100%;
+
+        @include phone {
+            height: 309px;
+        }
+    }
+
+    p {
+        font-size: 17px;
+
+        @include phone {
+            width: 100%;
+        }
+    }
+
+    .footerDetails {
+        margin-top: 100px;
+
+        img {
+            position: absolute;
+        }
+
+        span {
+            margin-left: 50px;
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        @include phone {
+            text-align: center;
+        }
+
+        .navLinks {
+            @include phone {
+                display: flex;
+                flex-direction: column;
+            }
+            a {
+                color: #fff;
+                margin-right: 20px;
+                text-decoration: none;
+                font-weight: 600;
+                font-size: 17px;
+                margin-top: 20px;
+            }
+        }
+
+        .mediaLinks {
+            a {
+                color: #fff;
+                margin-right: 24px;
+                background-color: $primary-color;
+                border-radius: 100%;
+                font-size: 17px;
+                padding: 6px 9px;
+            }
+        }
+    }
+}
+.copyright {
+    text-align: center;
+    background-color: $primary-color;
+    margin-bottom: 0;
+    padding: 10px 0;
+    color: #fff;
+    margin-right: -12px;
 }

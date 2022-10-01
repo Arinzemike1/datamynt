@@ -12,6 +12,23 @@
     z-index: 1;
     padding: 10px 45px;
 
+    img {
+        position: absolute;
+        top: 35px;
+
+        @include phone {
+            left: 20px;
+        }
+    }
+
+    span {
+        margin-left: 50px;
+
+        @include phone {
+            margin-left: 30px;
+        }
+    }
+
     ul {
         display: flex;
         list-style: none;
@@ -38,14 +55,35 @@
     }
 
     &.onScroll {
-        background-color: #fff;
-    
-        li a {
+        background-color: #efefef;
+
+        .mobileIcon {
+            display: none;
+
+            @media screen and (max-width: 768px) {
+                display: block;
+                color: #000;
+                position: absolute;
+                top: 0;
+                right: 0;
+                transform: translate(-100%, 60%);
+                font-size: 1.8rem;
+                cursor: pointer;
+                margin-top: -2px;
+            }
+        }
+
+        .datamyntLogo {
             color: #000;
         }
+
+        li a {
+            color: #555;
+        }
+
         .loginBtn {
-            color: #000;
-            border: 2px solid #000;
+            color: #555;
+            border: 2px solid #555;
         }
     }
 }
@@ -82,7 +120,7 @@
         transform: translate(-100%, 60%);
         font-size: 1.8rem;
         cursor: pointer;
-        margin-top: -10px;
+        margin-top: -2px;
     }
 }
 
@@ -109,7 +147,8 @@
     margin-left: 10%;
 }
 
-.loginBtn, .ctaBtn {
+.loginBtn,
+.ctaBtn {
     padding: 1px 35px;
     color: #fff;
     font-weight: 600;
@@ -124,4 +163,7 @@
 .ctaBtn {
     background-image: linear-gradient(86.77deg, #42e8e0 -46.37%, #6940de 98.59%);
     border: none;
+}
+.ctaBtn:hover {
+    color: #fff;
 }

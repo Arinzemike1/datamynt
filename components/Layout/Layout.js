@@ -17,7 +17,6 @@ const Layout = ({ children }) => {
     return (
         <>
             {router.pathname !== '/' && <Navbar toggleIsOpen={toggleIsOpen} />}
-            {/* <Navbar toggleIsOpen={toggleIsOpen} /> */}
             <Sidebar isOpen={isOpen} toggleIsOpen={toggleIsOpen} />
             <div>
                 <main>

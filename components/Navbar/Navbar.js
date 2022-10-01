@@ -27,17 +27,16 @@ const Navbar = ({ toggleIsOpen }) => {
 
     return (
         <nav className={nav ? `${navStyles.navContainer} ${navStyles.onScroll}` : navStyles.navContainer}>
-            <div>
+            <div className='ms-lg-5 ms-0'>
                 <Link
                     className={navStyles.logo}
-                    to="home"
-                    spy={true}
+                    to="#"
                     smooth={true}
                     duration={500}
                     exact={true}
                     offset={-75}
                 >
-                    <img src="/logo.svg" alt="" /> <span>DATAMYNT</span>
+                    <img src="/logo.svg" alt="" /> <span className={navStyles.datamyntLogo}>DATAMYNT</span>
                 </Link>
             </div>
 
@@ -49,8 +48,7 @@ const Navbar = ({ toggleIsOpen }) => {
                     <Link
                         className={navStyles.linkWrapper}
                         activeClass={navStyles.active}
-                        to="about"
-                        spy={true}
+                        to="#"
                         smooth={true}
                         duration={500}
                         exact={true}
@@ -64,8 +62,7 @@ const Navbar = ({ toggleIsOpen }) => {
                     <Link
                         className={navStyles.linkWrapper}
                         activeClass={navStyles.active}
-                        to="projects"
-                        spy={true}
+                        to="#"
                         smooth={true}
                         duration={500}
                         exact={true}
@@ -79,8 +76,7 @@ const Navbar = ({ toggleIsOpen }) => {
                     <Link
                         className={navStyles.linkWrapper}
                         activeClass={navStyles.active}
-                        to="services"
-                        spy={true}
+                        to="#"
                         smooth={true}
                         duration={500}
                         exact={true}
@@ -94,8 +90,7 @@ const Navbar = ({ toggleIsOpen }) => {
                     <Link
                         className={navStyles.linkWrapper}
                         activeClass={navStyles.active}
-                        to="thoughts"
-                        spy={true}
+                        to="#"
                         smooth={true}
                         duration={500}
                         exact={true}

@@ -21,49 +21,60 @@ const SideBar = ({ isOpen, toggleIsOpen }) => {
                             offset={-80}
                             onClick={toggleIsOpen}
                             >
-                            Home
+                            Team
                         </Link>
                     </li>
                     <li>
                         <Link
                             className={style.linkWrapper} 
-                            to="about"
-                            spy={true}
+                            to="#"
                             smooth={true}
                             duration={500}
                             exact={true}
                             offset={-80}
                             onClick={toggleIsOpen}
                             >
-                            About
+                            Contact Us
                         </Link>
                     </li>
                     <li>
                         <Link
                             className={style.linkWrapper} 
-                            to="projects"
-                            spy={true}
+                            to="#"
                             smooth={true}
                             duration={500}
                             exact={true}
                             offset={-80}
                             onClick={toggleIsOpen}
                             >
-                            Projects
+                            Careers
                         </Link>
                     </li>
                     <li>
                         <Link
-                            className={style.linkWrapper} 
-                            to="home"
-                            spy={true}
+                            className={style.loginBtn} 
+                            to="#"
                             smooth={true}
                             duration={500}
                             exact={true}
                             offset={-80}
                             onClick={toggleIsOpen}
                             >
-                            Home
+                            Login
+                        </Link>
+                    </li>
+
+                    <li>
+                        <Link
+                            className={style.ctaBtn} 
+                            to="#"
+                            smooth={true}
+                            duration={500}
+                            exact={true}
+                            offset={-80}
+                            onClick={toggleIsOpen}
+                            >
+                            Book Demo Today
                         </Link>
                     </li>
                 </ul>

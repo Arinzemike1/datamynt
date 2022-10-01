@@ -5,7 +5,7 @@ const Home = () => {
 
   return (
     <div>
-      <Header pageTitle="Arinze Ihemedu | Software Engineer" />
+      <Header pageTitle="Crypto Payment Gateway | Pay with Crypto | DataMynt" />
       <main>
         <HomePage />
       </main>
