@@ -15,9 +15,8 @@ const SideBar = ({ isOpen, toggleIsOpen }) => {
                             className={style.linkWrapper} 
                             to="home"
                             spy={true}
-                            smooth={true}
                             duration={500}
-                            exact={true}
+                            exact="true"
                             offset={-80}
                             onClick={toggleIsOpen}
                             >
@@ -28,9 +27,8 @@ const SideBar = ({ isOpen, toggleIsOpen }) => {
                         <Link
                             className={style.linkWrapper} 
                             to="#"
-                            smooth={true}
                             duration={500}
-                            exact={true}
+                            exact="true"
                             offset={-80}
                             onClick={toggleIsOpen}
                             >
@@ -41,9 +39,8 @@ const SideBar = ({ isOpen, toggleIsOpen }) => {
                         <Link
                             className={style.linkWrapper} 
                             to="#"
-                            smooth={true}
                             duration={500}
-                            exact={true}
+                            exact="true"
                             offset={-80}
                             onClick={toggleIsOpen}
                             >
@@ -54,9 +51,8 @@ const SideBar = ({ isOpen, toggleIsOpen }) => {
                         <Link
                             className={style.loginBtn} 
                             to="#"
-                            smooth={true}
                             duration={500}
-                            exact={true}
+                            exact="true"
                             offset={-80}
                             onClick={toggleIsOpen}
                             >
@@ -68,9 +64,8 @@ const SideBar = ({ isOpen, toggleIsOpen }) => {
                         <Link
                             className={style.ctaBtn} 
                             to="#"
-                            smooth={true}
                             duration={500}
-                            exact={true}
+                            exact="true"
                             offset={-80}
                             onClick={toggleIsOpen}
                             >

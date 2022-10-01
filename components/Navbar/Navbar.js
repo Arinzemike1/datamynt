@@ -28,9 +28,8 @@ const Navbar = ({ toggleIsOpen }) => {
                 <Link
                     className={navStyles.logo}
                     to="#"
-                    smooth={true}
                     duration={500}
-                    exact={true}
+                    exact="true"
                     offset={-75}
                 >
                     <img src="/logo.svg" alt="" /> <span className={navStyles.datamyntLogo}>DATAMYNT</span>
@@ -46,9 +45,8 @@ const Navbar = ({ toggleIsOpen }) => {
                         className={navStyles.linkWrapper}
                         activeClass={navStyles.active}
                         to="#"
-                        smooth={true}
                         duration={500}
-                        exact={true}
+                        exact="true"
                         offset={-75}
                     >
                         Team
@@ -60,9 +58,8 @@ const Navbar = ({ toggleIsOpen }) => {
                         className={navStyles.linkWrapper}
                         activeClass={navStyles.active}
                         to="#"
-                        smooth={true}
                         duration={500}
-                        exact={true}
+                        exact="true"
                         offset={-75}
                     >
                         Contact
@@ -74,9 +71,8 @@ const Navbar = ({ toggleIsOpen }) => {
                         className={navStyles.linkWrapper}
                         activeClass={navStyles.active}
                         to="#"
-                        smooth={true}
                         duration={500}
-                        exact={true}
+                        exact="true"
                         offset={-75}
                     >
                         Careers
@@ -88,9 +84,8 @@ const Navbar = ({ toggleIsOpen }) => {
                         className={navStyles.linkWrapper}
                         activeClass={navStyles.active}
                         to="#"
-                        smooth={true}
                         duration={500}
-                        exact={true}
+                        exact="true"
                         offset={-75}
                     >
                         Press

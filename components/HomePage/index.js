@@ -39,7 +39,7 @@ const HomePage = () => {
                     </div>
 
                     <div className='col-md-5 mt-4 d-lg-block d-none' data-aos="fade-left" data-aos-duration="1000">
-                        <img src="https://datamynt.com/nextimg/%2Fdatamynt-app.png/3840/75?url=%2Fdatamynt-app.png&w=3840&q=75" width="630" fetchPriority="high" height="702" style={{ maxWidth: "100%" }} alt="" />
+                        <img src="https://datamynt.com/nextimg/%2Fdatamynt-app.png/3840/75?url=%2Fdatamynt-app.png&w=3840&q=75" width="630" height="702" style={{ maxWidth: "100%" }} alt="" />
                     </div>
                 </div>
 
@@ -49,7 +49,7 @@ const HomePage = () => {
                     </div>
 
                     <div className={`col-md-6 col-12 ${Style.welcomeText}`} data-aos="fade-left" data-aos-duration="1000">
-                        <h2 class="text-white mb-5">Welcome to Datamynt</h2>
+                        <h2 className="text-white mb-5">Welcome to Datamynt</h2>
                         <p><span>DataMynt</span> introduces the digital golden era of merchant payment servicing with our stable
                             cryptocurrency checkout and payment solution.<br /><br /><span>Accept Bitcoin, Ethereum, and other cryptos</span> as payment<span>
                                 without traditional crypto volatility.</span> One click, scan or send. It just works.
