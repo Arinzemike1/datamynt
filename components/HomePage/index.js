@@ -39,13 +39,13 @@ const HomePage = () => {
                     </div>
 
                     <div className='col-md-5 mt-4 d-lg-block d-none' data-aos="fade-left" data-aos-duration="1000">
-                        <img src="https://datamynt.com/nextimg/%2Fdatamynt-app.png/3840/75?url=%2Fdatamynt-app.png&w=3840&q=75" width="630" height="702" style={{ maxWidth: "100%" }} alt="" />
+                        <img src="https://datamynt.com/nextimg/%2Fdatamynt-app.png/3840/75?url=%2Fdatamynt-app.png&w=3840&q=75" width="630" height="702" alt="" />
                     </div>
                 </div>
 
                 <div className={`row ${Style.welcomeSection}`}>
                     <div className="col-md-6 d-lg-block d-none" data-aos="fade-right" data-aos-duration="2000">
-                        <img src="https://datamynt.com/iphone-header.png" width="636" style={{ maxWidth: "100%", marginTop: "-100px" }} alt="" />
+                        <img src="https://datamynt.com/iphone-header.png" width="636" style={{ marginTop: "-100px" }} alt="" />
                     </div>
 
                     <div className={`col-md-6 col-12 ${Style.welcomeText}`} data-aos="fade-left" data-aos-duration="1000">
@@ -62,7 +62,7 @@ const HomePage = () => {
                     </div>
                 </div>
 
-                <div className={`row mt-lg-0 mt-5 ${Style.whyDataMynt}`}>
+                <div className={`row mt-lg-0 mt-5 pt-5 ${Style.whyDataMynt}`}>
                     <div className="col-md-12">
 
                         <div className='text-center mt-5' data-aos="fade-up" data-aos-duration="1000">
