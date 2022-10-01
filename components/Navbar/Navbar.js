@@ -1,10 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
-import Image from 'next/image';
-// import Link from 'next/link';
 import navStyles from './Nav.module.scss';
-import { FaBars, FaFacebookF, FaLinkedinIn, FaGithub, FaInstagram } from 'react-icons/fa';
-import Logo from '../../public/static/logo';
+import { FaBars } from 'react-icons/fa';
 
 const Navbar = ({ toggleIsOpen }) => {
 
