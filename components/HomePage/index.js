@@ -38,7 +38,7 @@ const HomePage = () => {
                         </div>
                     </div>
 
-                    <div className='col-md-5 mt-4 d-lg-block d-none' data-aos="fade-left" data-aos-duration="1000">
+                    <div className='col-md-5 mt-4 d-lg-block d-none' data-aos="fade-left" data-aos-duration="2000">
                         <img src="https://datamynt.com/nextimg/%2Fdatamynt-app.png/3840/75?url=%2Fdatamynt-app.png&w=3840&q=75" width="534" height="595" alt="" />
                     </div>
                 </div>
