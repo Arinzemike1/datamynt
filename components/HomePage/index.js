@@ -31,7 +31,7 @@ const HomePage = () => {
                 <div className="row">
                     <div className={`col-lg-7 col-12 ${Style.headlineText}`} data-aos="fade-up" data-aos-duration="1000">
                         <h5><b className={Style.secondaryColor}>Stable Crypto</b><br /> Checkout & Payments</h5>
-                        <h6>Over 300m people now own $1 Trillion in <br /> crypto assets. It’s time for a welcome mat.</h6>
+                        <h6>Over 300m people now own $1 Trillion in crypto assets. It’s time for a welcome mat.</h6>
 
                         <div className="mt-5 pt-3">
                             <a href="#" className={Style.ctaBtn}>Book Demo Today</a>
@@ -39,13 +39,13 @@ const HomePage = () => {
                     </div>
 
                     <div className='col-md-5 mt-4 d-lg-block d-none' data-aos="fade-left" data-aos-duration="1000">
-                        <img src="https://datamynt.com/nextimg/%2Fdatamynt-app.png/3840/75?url=%2Fdatamynt-app.png&w=3840&q=75" width="630" height="702" alt="" />
+                        <img src="https://datamynt.com/nextimg/%2Fdatamynt-app.png/3840/75?url=%2Fdatamynt-app.png&w=3840&q=75" width="534" height="595" alt="" />
                     </div>
                 </div>
 
                 <div className={`row ${Style.welcomeSection}`}>
-                    <div className="col-md-6 d-lg-block d-none" data-aos="fade-right" data-aos-duration="2000">
-                        <img src="https://datamynt.com/iphone-header.png" width="636" style={{ marginTop: "-100px" }} alt="" />
+                    <div className="col-md-6 d-lg-block d-none mt-5" data-aos="fade-right" data-aos-duration="1000">
+                        <img src="https://datamynt.com/iphone-header.png" width="520" height="419" style={{ marginTop: "-100px" }} alt="" />
                     </div>
 
                     <div className={`col-md-6 col-12 ${Style.welcomeText}`} data-aos="fade-left" data-aos-duration="1000">
@@ -135,7 +135,7 @@ const HomePage = () => {
             <section id="transaction-section">
                 <div className={`text-center ${Style.transactionSection}`} data-aos="fade-up" data-aos-duration="1000">
                     <span><b>New Partners, Sellers and Merchants</b></span>
-                    <h2 className='mb-5'><b>Get 0% Transaction Fees for 60 days</b></h2>
+                    <h3 className='mb-5'><b>Get 0% Transaction Fees for 60 days</b></h3>
                     <a href="#" className={Style.ctaBtn}>Book Demo Today</a>
                 </div>
             </section>
@@ -206,7 +206,7 @@ const HomePage = () => {
             </section>
 
             <section id="powerful-tools">
-                <h2 className='text-lg-center text-left ps-lg-0 ps-4 mt-5 fw-bold'>Simple, powerful tools to help you integrate and analyse crpyto for <br /> your business</h2>
+                <h4 className='text-lg-center text-left ps-lg-0 ps-4 mt-5 fw-bold'>Simple, powerful tools to help you integrate and analyse crpyto for <br /> your business</h4>
                 <div className={`row ${Style.powerfulTools}`}>
                     <div className="col-md-7" data-aos="fade-right" data-aos-duration="2000">
                         <ul>
@@ -300,7 +300,7 @@ const HomePage = () => {
 
             <section id="recognition-section">
                 <div className={`row ${Style.recognitionSection}`}>
-                    <h2 className='fw-bold text-center text-white mb-5 mt-5' data-aos="fade-left" data-aos-duration="2000">We’ve been recognized for the work we do</h2>
+                    <h3 className='fw-bold text-center text-white mb-5 mt-5' data-aos="fade-left" data-aos-duration="2000">We’ve been recognized for the work we do</h3>
                     <div className="col-lg-4" data-aos="flip-up" data-aos-duration="2000">
                         <img src="https://datamynt.com/_next/image?url=%2Ffintech.svg&w=828&q=75" width="400" alt="" />
                     </div>
@@ -356,7 +356,7 @@ const HomePage = () => {
 
             <section id="contact-us">
                 <div className={`row text-white ${Style.contactUs}`}>
-                    <h2 className='fw-bold text-center'>Connect with us to get started</h2>
+                    <h3 className='fw-bold text-center'>Connect with us to get started</h3>
                     <div className="mt-3 pt-3 text-center">
                         <a href="#" className={Style.ctaBtn}>Book Demo Today</a>
                     </div>
