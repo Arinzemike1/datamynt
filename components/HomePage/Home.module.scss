@@ -68,8 +68,11 @@
     }
 
     h6 {
-        font-size: 22px;
+        font-size: 19px;
         margin-top: 45px;
+        line-height: 30px;
+        width: 83%;
+        color: #efefefcf;
 
         @include phone {
             font-size: 19px;
