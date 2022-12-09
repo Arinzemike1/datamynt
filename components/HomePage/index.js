@@ -358,7 +358,7 @@ const HomePage = () => {
                 <div className={`row text-white ${Style.contactUs}`}>
                     <h3 className='fw-bold text-center'>Connect with us to get started</h3>
                     <div className="mt-3 pt-3 text-center">
-                        <a href="#" className={Style.ctaBtn}>Book Demo Today</a>
+                        <a href="#" className={Style.ctaBtn}>Book a Demo Today</a>
                     </div>
 
 
