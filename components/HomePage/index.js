@@ -39,13 +39,13 @@ const HomePage = () => {
                     </div>
 
                     <div className='col-md-5 mt-4 d-lg-block d-none' data-aos="fade-left" data-aos-duration="2000">
-                        <img src="https://datamynt.com/nextimg/%2Fdatamynt-app.png/3840/75?url=%2Fdatamynt-app.png&w=3840&q=75" width="534" height="595" alt="" />
+                        <img src="https://datamynt.com/headeriphoneI.svg" width="534" height="595" alt="" />
                     </div>
                 </div>
 
                 <div className={`row ${Style.welcomeSection}`}>
                     <div className="col-md-6 d-lg-block d-none mt-5" data-aos="fade-right" data-aos-duration="1000">
-                        <img src="https://datamynt.com/iphone-header.png" width="520" height="419" style={{ marginTop: "-100px" }} alt="" />
+                        <img src="https://datamynt.com/headerimg2.svg" width="520" height="419" style={{ marginTop: "-100px" }} alt="" />
                     </div>
 
                     <div className={`col-md-6 col-12 ${Style.welcomeText}`} data-aos="fade-left" data-aos-duration="1000">
@@ -148,7 +148,7 @@ const HomePage = () => {
                     </div>
 
                     <div className="col-lg-5 mt-md-0 mt-4 mb-md-0 mb-5" data-aos="fade-left" data-aos-duration="1000">
-                        <img src="https://datamynt.com/_next/image?url=%2Fcryptos-networks.png&w=1080&q=75" width="514" alt="" />
+                        <img src="https://datamynt.com/bestratesimg.svg" width="514" alt="" />
                     </div>
                 </div>
             </section>
@@ -156,7 +156,7 @@ const HomePage = () => {
             <section id="simple-checkout">
                 <div className={`row ${Style.simpleCheckout}`}>
                     <div className="col-lg-7 col-12" data-aos="zoom-in" data-aos-duration="2000">
-                        <img src="https://datamynt.com/_next/image?url=%2Fcrypto-checkout.png&w=1080&q=75" width="489" alt="" />
+                        <img src="https://datamynt.com/Groupphone2.svg" width="489" alt="" />
                     </div>
 
                     <div className={`col-lg-5 col-12 ${Style.checkoutText}`} data-aos="fade-left" data-aos-duration="2000">
@@ -174,12 +174,12 @@ const HomePage = () => {
                     </div>
 
                     <div className="col-lg-5 col-12" data-aos="flip-up" data-aos-duration="2000">
-                        <img src="https://datamynt.com/_next/image?url=%2Fsell-in-person.png&w=1080&q=75" width="501" height="472" alt="" />
+                        <img src="https://datamynt.com/settlefunds.svg" width="501" height="472" alt="" />
                     </div>
                 </div>
             </section>
 
-            <section id="easy-settle">
+            {/* <section id="easy-settle">
                 <div className={`row ${Style.easySettle}`}>
                     <div className="col-md-7" data-aos="fade-right" data-aos-duration="2000">
                         <img src="https://datamynt.com/_next/image?url=%2Fstelle.png&w=1080&q=75" width="508" alt="" />
@@ -190,9 +190,9 @@ const HomePage = () => {
                         <p>In local currency options (e.g. USD, BRL, EUR)</p>
                     </div>
                 </div>
-            </section>
+            </section> */}
 
-            <section id="track-sales">
+            {/* <section id="track-sales">
                 <div className={`row text-white ${Style.trackSales}`}>
                     <div className={`col-md-7 ${Style.trackSalesText}`} data-aos="fade-right" data-aos-duration="2000">
                         <h4 className='mb-3'>Track sales and engage customers</h4>
@@ -203,7 +203,7 @@ const HomePage = () => {
                         <img src="https://datamynt.com/_next/image?url=%2Fweb-portal.svg&w=1080&q=75" width="515" alt="" />
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             <section id="powerful-tools">
                 <h4 className='text-lg-center text-left ps-lg-0 ps-4 mt-5 fw-bold'>Simple, powerful tools to help you integrate and analyse crpyto for <br /> your business</h4>
@@ -265,7 +265,7 @@ const HomePage = () => {
                     </div>
 
                     <div className="col-md-5 d-lg-block d-none" style={{ marginTop: "60px" }} data-aos="flip-left" data-aos-duration="2000">
-                        <img src="	https://datamynt.com/_next/image?url=%2Fpower-tools.png&w=1920&q=75" width="701" alt="" />
+                        <img src="https://datamynt.com/systemcrypto.svg" width="901" alt="" />
                     </div>
                 </div>
             </section>
@@ -274,7 +274,7 @@ const HomePage = () => {
                 <div className={`row text-white text-center ${Style.tableMetrics}`}>
                     <div className="col-md-12" data-aos="zoom-in" data-aos-duration="2000">
                         <h2 className="fw-bold mb-5 mt-5">Your Trusted Stable Crypto Checkout Partner</h2>
-                        <img src="https://datamynt.com/_next/image?url=%2Ftable_comparison.svg&w=3840&q=75" width="1155" alt="" />
+                        <img src="https://datamynt.com/_next/image?url=%2Fglobalbiz.png&w=3840&q=75" width="1155" alt="" />
                     </div>
                 </div>
             </section>
@@ -323,7 +323,7 @@ const HomePage = () => {
                     </div>
 
                     <div className="col-lg-3 mb-lg-0 mb-5">
-                        <img src="https://datamynt.com/_next/image?url=%2Fpolygon.png&w=640&q=75" width="170.4" alt="" />
+                        <img src="https://datamynt.com/polygon.svg" width="170.4" alt="" />
                     </div>
 
                     <div className="col-lg-3" style={{ marginTop: "-80px" }}>
@@ -336,16 +336,16 @@ const HomePage = () => {
                 </div>
 
                 <div className="row mt-3 ms-3 text-center" data-aos="fade-right" data-aos-duration="2000">
-                    <div className="col-lg-3 col-12 mt-lg-0 mt-5">
-                        <img src="https://datamynt.com/_next/image?url=%2Fdomain.svg&w=640&q=75" width="213.4" alt="" />
+                    <div className="col-lg-3 col-12 mt-lg-0 mt-2">
+                        <img src="https://datamynt.com/_next/image?url=%2Fdigifinex.png&w=256&q=75" width="113.4" alt="" />
                     </div>
 
                     <div className="col-lg-3 col-12" style={{ marginTop: "-40px" }}>
-                        <img src="https://datamynt.com/_next/image?url=%2Funit.svg&w=384&q=75" width="129" alt="" />
+                        <img src="https://datamynt.com/_next/image?url=%2Fdigitata.png&w=256&q=75" width="129" alt="" />
                     </div>
 
                     <div className="col-lg-3 col-12">
-                        <img src="https://datamynt.com/_next/image?url=%2F800.svg&w=256&q=75" width="106" alt="" />
+                        <img src="https://datamynt.com/_next/image?url=%2FnewUOB.jpeg&w=384&q=75" width="106" alt="" />
                     </div>
 
                     <div className="col-lg-3 col-12 mt-lg-0 mt-5">
